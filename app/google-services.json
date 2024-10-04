@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475078993553",
+    "project_id": "mychatapp-4b3dc",
+    "storage_bucket": "mychatapp-4b3dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475078993553:android:d5b7a50bc4d1fa3b1a0130",
+        "android_client_info": {
+          "package_name": "com.haticekaratas.mychatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ptCYgfH-JiuR8y5xI_t0_0hth-RMyxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

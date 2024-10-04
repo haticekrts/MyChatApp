@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FEFEFE"
+    android:layout_gravity="center"
+    tools:context=".OTPActivity">
+    <ImageView
+        android:src="@drawable/dogrulama_background"
+        android:scaleType="centerCrop"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+    <TextView
+        android:id="@+id/phoneLble"
+        android:text="doğrula "
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|normal"
+        android:textColor="#007DFD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Doğrulama için paraloyayı girin"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textColor="#878383"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.mukesh.OtpView
+                android:id="@+id/otp_view"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:background="#E2EDFD"
+                android:focusableInTouchMode="true"
+                app:OtpItemSpacing="8dp"
+                app:OtpItemCount="6"
+                app:lineColor="#7E7A7A"
+                app:viewType="line"
+                android:contentDescription="@string/enter_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/contiuneBttn"
+                android:text="Devam Et"
+                android:textStyle="bold|normal"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:backgroundTint="#4DCC52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
